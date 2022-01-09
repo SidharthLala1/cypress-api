@@ -1,0 +1,44 @@
+{
+	"baseUrl": "https://reqres.in/api/users",
+	"watchForFileChanges": false,
+	"waitForAnimations": true,
+	"animationDistanceThreshold": 15,
+	"defaultCommandTimeout": 5000,
+	"numTestsKeptInMemory": 10,
+	"trashAssetsBeforeRuns": true,
+	"execTimeout": 60000,
+	"pageLoadTimeout": 40000,
+	"requestTimeout": 15000,
+	"responseTimeout": 15000,
+	"viewportWidth": 1000,
+	"viewportHeight": 600,
+	"video": false,
+	"failOnStatusCode": false,
+	"coverage": false,
+	"screenshotOnRunFailure": true,
+	"chromeWebSecurity": false,
+	"testFiles": [
+		"api/list_user.spec.js",
+		"api/create_user.spec.js",
+		"api/delete_user.spec.js",
+		"api/user_login.spec.js"
+	],
+	"projectId": "72gzxb",
+	"reporter": "mochawesome",
+	"reporterOptions": {
+		"charts": true,
+		"overwrite": false,
+		"html": true,
+		"json": true,
+		"reportDir": "cypress/report/mochawesome-report",
+		"reportFilename": "test_report"
+	},
+	"env": {
+		"prod": "http://localhost:4200/#/",
+		"dev": "http://localhost:4200/#/"
+	},
+	"retries": {
+		"runMode": 1,
+		"openMode": 1
+	}
+}

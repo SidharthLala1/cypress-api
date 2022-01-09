@@ -1,0 +1,9 @@
+node_modules
+sellgo_report.html
+sellgo_report_*.json
+report/
+videos/
+screenshots/
+.nyc_output
+coverage
+debug.log
