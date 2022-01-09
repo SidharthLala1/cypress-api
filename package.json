@@ -1,5 +1,5 @@
 {
-	"name": "web-automation",
+	"name": "api-automation",
 	"version": "1.0.0",
 	"description": "This Repositry has automation test cases for api",
 	"main": "index.js",
@@ -14,7 +14,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Sellgo/web-automation.git"
+		"url": "git+https://github.com/SidharthLala1/cypress-api"
 	},
 	"keywords": [
 		"cypress"
@@ -28,9 +28,9 @@
 		"prettier": "^2.0.5"
 	},
 	"bugs": {
-		"url": "https://github.com/Sellgo/web-automation/issues"
+		"url": "https://github.com/SidharthLala1/cypress-api/issues"
 	},
-	"homepage": "https://github.com/Sellgo/web-automation#readme",
+	"homepage": "https://github.com/SidharthLala1/cypress-api/blob/master/README.md",
 	"devDependencies": {
 		"@percy/cypress": "^2.3.3",
 		"babel-plugin-istanbul": "^6.0.0",

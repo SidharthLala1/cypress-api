@@ -45,18 +45,6 @@ npm run cy:run
 
 npm run cy:run:sandbox
 
-# Command to test a single test case on the server
-
-/root/cypress*automation/web-automation/node_modules/.bin/cypress run --spec ./cypress/integration/<folder_name>/<test* case> --browser chrome --headless
-
-- For example : /profit_finder/profit_finder_track_now.spec.js - any folder name and test cases can be added on needs bases.
-
-## Test script dependencies
-
-- Before running the test cases make sure the account has amazon_seller_id and mws_auth_token attached to the account. To check the active account. Go to cypress.env.json file and login with the username and password to make sure the account has the amazon_seller_id and mws_auth_token attached.
-
-- Make sure guest+920@sellgo.com account has a valid monthly basic plan.
-
 ## Server setup and installing Cypress dependencies
 
 - sudo apt update
